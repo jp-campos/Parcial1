@@ -1,5 +1,13 @@
 
 
+@font-face {
+    font-family: fontTitulo;
+    src: url(assets/Satisfy-Regular.ttf);
+  }
+
+.titulo{
+    font-family: fontTitulo;
+}
 
 .boton-cancel{
     background-color: #f8565a;
@@ -12,5 +20,16 @@
 }
 
 .barra-nav{
-    height: 80px;
+    height: 100px;
+    color: white !important;
+}
+
+.barra-nav div ul li a{
+    
+    color: white !important;
+}
+
+
+.clickeable{
+    cursor: pointer;
 }
